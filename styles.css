@@ -1,0 +1,209 @@
+body
+{
+  font-family: "Montserrat", sans-serif;
+}
+
+h1
+{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+h2
+{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.nav-item
+{
+  margin: auto 15px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+#title
+{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.navbar
+{
+  padding: 0;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+
+.container-fluid
+{
+  padding: 3% 13%;
+}
+
+.row
+{
+  padding-top: 100px;
+}
+
+.iphone-img
+{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+
+}
+
+@media (max-width: 992px)
+{
+  #title
+  {
+    text-align: center;
+  }
+  .iphone-img
+  {
+    margin-top: 50px;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.download-btn
+{
+  margin-right: 10px;
+}
+
+#features
+{
+  position: relative;
+  background-color:white;
+}
+
+#features h3
+{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#features p
+{
+  color: #8f8f8f;
+}
+
+.row-icons
+{
+  text-align: center;
+  padding: 100px 8%;
+}
+
+.col-icon
+{
+  padding: 0 5%;
+}
+
+.ill-icon
+{
+  color: #ef8172;
+  margin:auto;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.ill-icon:hover
+{
+  color: #ff4c68;
+}
+
+#testimonials
+{
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+.testimonial-img
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+#cta
+{
+  padding: 10% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3
+{
+  font-family: Montserrat;
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+#footer
+{
+  text-align:center;
+}
+
+.copyright
+{
+  font-size: 0.6rem;
+}
+.social-media
+{
+  margin-top: 50px;
+}
+
+.social-media span
+{
+  margin: auto 16px;
+}
